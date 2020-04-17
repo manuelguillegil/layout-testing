@@ -1,8 +1,3 @@
-.item-box {
-  height: 2.5rem;
-  background: #e4e4e4;
-}
-
 /* KAVAK NAVBAR */
 nav {
   height: 3.125rem;
@@ -38,6 +33,14 @@ header {
   background: -webkit-linear-gradient(bottom, #343a403b 25%,rgba(34, 34, 34, 0.9) 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(bottom, #343a403b 25%,rgba(34, 34, 34, 0.9) 100%); /* Opera 11.10+ */
   background: linear-gradient(to bottom, #343a403b 25%,rgba(34, 34, 34, 0.9) 100%); /* W3C */
+}
+
+/* GRID SECTION */
+
+.item-box {
+  height: 7rem;
+  width: 7rem;
+  background: #e4e4e4;
 }
 
 /* Dispositivos moviles */
