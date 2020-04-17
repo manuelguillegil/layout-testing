@@ -1,86 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
 
-    <title>Prueba Maquetado</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <title>Prueba Maquetado</title>
 
-    <!-- Custom styles for this template -->
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="scss/styles.scss" rel="stylesheet" />
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <body id="page-top">
-    <nav class="navbar navbar-custom navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <img src="images/logo.png" class="float-left img-fluid navbar-logo-custom" alt="Kavak logo">
-        </a>
-        <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Opción 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Opción 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Opción 3</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="scss/styles.scss" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+  <nav class="navbar navbar-custom navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="images/logo.png" class="float-left img-fluid navbar-logo-custom" alt="Kavak logo">
+      </a>
+      <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse bg-dark" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">Opción 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">Opción 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">Opción 3</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <header class="w-100">
+        <div id="carouselKavakIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselKavakIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselKavakIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="img-gradient">
+                <img class="d-block float-right img-fluid" src="images/carrousel-1.webp" alt="Primer slide Kavak">
+                <div class="carousel-caption carousel-caption-custom d-none h-100 d-flex align-items-center justify-content-center">
+                  <div>
+                    <h5>Transformando la compra y venta de autos seminuevos</h5>
+                    <p>Comprar un auto en KAVAK es una experiencia única</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="img-gradient">
+                <img class="d-block float-right img-fluid" src="images/carrousel-2.png" alt="Segundo slide Kavak">
+                <div class="carousel-caption carousel-caption-custom d-none h-100 d-flex align-items-center justify-content-center">
+                  <div>
+                    <h5>Autos seminuevos certificados</h5>
+                    <p>Comprar un auto en KAVAK es una experiencia única</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </header>
+    </div>
 
-    <header class="bg-primary text-white">
-      <div class="container">
+    <div class="row">
+      <section class="container pb-5">
         <div class="row">
-          <div class="col-12">
-            <h1>Hello World</h1>
-            <p class="lead">
-              A landing page template
-            </p>
+          <div class="col-lg-8 mx-auto">
+            <div class="mt-5 d-flex justify-content-center">
+              <h2>Grid Section</h2>
+            </div>
+
+            <div id="grid">
+              <button type="button" class="btn item-box px-4">
+                Item
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </section>
+    </div>
+  </div>
 
-    <section class="container pb-5">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <div class="mt-5 d-flex justify-content-center">
-            <h2>Grid Section</h2>
-          </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-          <div id="grid">
-            <button type="button" class="btn item-box px-4">
-              Item
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+</body>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
-  </body>
 </html>

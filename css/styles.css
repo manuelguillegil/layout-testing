@@ -1,17 +1,13 @@
-nav {
-  height: 3.125rem;
-}
-
-header {
-  height: 20rem;
-}
-
 .item-box {
   height: 2.5rem;
   background: #e4e4e4;
 }
 
 /* KAVAK NAVBAR */
+nav {
+  height: 3.125rem;
+}
+
 .navbar-logo-custom {
   max-height: 2em;
 }
@@ -20,10 +16,46 @@ header {
   border: none;
 }
 
-/* Dispositivos de anchura muy pequeña */
+/* HEADER */
+
+header {
+  height: 20rem;
+}
+
+.carousel-item img {
+  height: 20rem;
+}
+
+.img-gradient:after {
+  content:'';
+  position: absolute;
+  left: 0; 
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  display: inline-block;
+  background: -moz-linear-gradient(bottom, #343a403b 25%,rgba(34, 34, 34, 0.9) 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(bottom, #343a403b 25%,rgba(34, 34, 34, 0.9) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(bottom, #343a403b 25%,rgba(34, 34, 34, 0.9) 100%); /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #343a403b 25%,rgba(34, 34, 34, 0.9) 100%); /* W3C */
+}
+
+/* Dispositivos moviles */
 @media (max-width: 575.98px) { 
   .navbar-custom {
-    min-height: 10vh;
+    min-height: 8.5vh;
+  }
+
+  header {
+    height: 10rem;
+  }
+
+  .carousel-item img {
+    height: 10rem;
+  }
+
+  .carousel-caption-custom {
+    font-size: 0.4rem;
   }
 }
 
