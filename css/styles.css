@@ -10,3 +10,26 @@ header {
   height: 2.5rem;
   background: #e4e4e4;
 }
+
+/* KAVAK NAVBAR */
+.navbar-logo-custom {
+  max-height: 2em;
+}
+
+.navbar-toggler-custom {
+  border: none;
+}
+
+/* Dispositivos de anchura muy pequeña */
+@media (max-width: 575.98px) { 
+  .navbar-custom {
+    min-height: 10vh;
+  }
+}
+
+/* Dispositivos pequeños y medianos como tablets */
+@media (min-width: 576px) and (max-width: 991.98px) { 
+  .navbar-custom {
+    min-height: 8vh;
+  }
+}
